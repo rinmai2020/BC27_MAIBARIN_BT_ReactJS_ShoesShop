@@ -5,7 +5,7 @@ const ProductList = ({ products, onClick }) => {
     <div className="row">
       {products.map((product) => {
         return (
-          <div key={product.id} className="col-xl-3 col-sm-4 mb-4 ">
+          <div key={product.id} className=" col-sm-4 mb-4 ">
             <ProductItem product={product} onClick={onClick} />
           </div>
         );
