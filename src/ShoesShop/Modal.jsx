@@ -1,6 +1,6 @@
 import React from "react";
 
-const Modal = ({ isOpen, onClose, product }) => {
+const Modal = ({ isOpen = false, onClose, product }) => {
   const showModal = {
     display: isOpen ? "block" : "none",
   };
